@@ -1,4 +1,6 @@
 # SQL50-Solutions
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 - This repository has all the solutions of SQL50 Study Plan from Leetcode. 
 - Users can use it to get some reference on how to solve SQL questions present in the study plan if they are preparing for the interviews where SQL is a crucial topic. 
 - The solutions are present in three separate directories based on the difficulty level of Leetcode tags such as (Easy, Medium, Hard) 
