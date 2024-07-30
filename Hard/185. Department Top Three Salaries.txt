@@ -1,0 +1,16 @@
+with emp_and_dept
+as 
+(
+    select e.id, e.name as emp_name, e.salary, d.name as dept_name
+    from employee as e
+    join department as d
+    on e.departmentId = d.id
+)
+select dept_name as Department, emp_name as Employee, salary as Salary
+from 
+(
+    select *,
+    dense_rank() over(partition by dept_name order by salary desc) as rnk
+    from emp_and_dept
+) as xyz
+where xyz.rnk <= 3;
